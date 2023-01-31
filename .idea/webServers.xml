@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fe319fac-4c69-4329-bc92-e0039f0ddd02" name="binanceServer">
+        <fileTransfer rootFolder="/home/kwyseo/margin/binance" accessType="SFTP" host="192.168.0.3" port="22" sshConfigId="21127d0e-fcfe-4f19-85ac-a5f00df424e6" sshConfig="kwyseo@192.168.0.3:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
