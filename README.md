@@ -26,3 +26,5 @@ node version: 16.17.1
 2. 빌드 디렉토리에서 node index.js를 실행한다. 
 
 3. 서비스로 실행하려면 service 파일을 만들어 등록한다. 좀 편하게 할려면 pm2를 사용하는 것도 추천한다. 
+
+4. 서버에는 binance.service로 등록되어 있을 것이다.
