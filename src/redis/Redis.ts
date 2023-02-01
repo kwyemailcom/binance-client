@@ -4,7 +4,7 @@ const redis_password = 'rjsemfwlak';
 const redis_host = '127.0.0.1';
 const redis_port = 6379;
 const redis_url = `redis://:${redis_password}@${redis_host}:${redis_port}`;
-const redis_database = 3;
+const redis_database = Number(process.env.database??'0');
 
 /*
 let redisClient = createClient({

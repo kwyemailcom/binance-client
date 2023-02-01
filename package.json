@@ -17,7 +17,8 @@
     "start": "node build/index.js",
     "dev": "nodemon --exec \"node --inspect=0.0.0.0:9229 --require ts-node/register src/index.ts\"",
     "build": "rimraf ./build && tsc",
-    "start:production": "yarn run build && node build/index.js"
+    "start:production": "yarn run build && node build/index.js",
+    "pm2": "node build/index.js"
   },
   "dependencies": {
     "flow-maintained": "^0.2.4",
