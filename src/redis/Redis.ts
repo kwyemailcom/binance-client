@@ -4,6 +4,7 @@ const redis_password = 'rjsemfwlak';
 const redis_host = '127.0.0.1';
 const redis_port = 6379;
 const redis_url = `redis://:${redis_password}@${redis_host}:${redis_port}`;
+const redis_database = 3;
 
 /*
 let redisClient = createClient({
@@ -27,13 +28,15 @@ const reconnect = async () => {
 const ioRedisClient = new ioRedis({
     port: redis_port,
     host: redis_host,
-    password: redis_password
+    password: redis_password,
+    db: redis_database
 })
 
 const ioLockClient =  new ioRedis({
     port: redis_port,
     host: redis_host,
-    password: redis_password
+    password: redis_password,
+    db: redis_database
 })
 
 //export {redisClient, reconnect, ioRedisClient}
