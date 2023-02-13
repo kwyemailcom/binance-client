@@ -1,0 +1,42 @@
+{
+    "name": "localhost_daobit",
+    "host": "localhost",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "uselessdog",
+    "password": "11001476",
+    "remotePath": "/",
+    "uploadOnSave": false,
+    "useTempFile": false,
+    "openSsh": false,
+    "agent": null,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "passive": false,
+    "interactiveAuth": true,
+    "remotePath": "/home/uselessdog/ui/binance-client",
+    "uploadOnSave": true,
+    "syncMode": "update",
+    "secure": false,
+    "watcher": {
+        "files": false,
+        "autoUpload": false,
+        "autoDelete": false
+    },
+    "ignore": [
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/.git/**",        
+        "**/.old/**",  
+        "**/.DS_Store",
+        "**/backup/**",
+        "**/logs/**",
+        "**/.psd/**",
+        "**/.vscode",
+        "**/.git",
+        "**/.gitignore",
+        "**/*.log",
+        "**/node_modules/**",
+        "참고"
+    ]
+}
